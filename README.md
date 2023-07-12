@@ -1,4 +1,4 @@
-# Kafka-examples-in-Python
+# Kafka examples in Python
 
 # Kafka installation
 Before executing the code, we should know there are three main libraries in Python for interacting with Kafka. They are PyKafka, Kafka-python and Confluent Kafka Libraries.
