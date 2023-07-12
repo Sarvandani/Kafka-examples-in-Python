@@ -20,3 +20,10 @@ It should be noticed the fersion of Java and Kafka must be compatible, for this 
 now, After installing Java, verify that the JAVA_HOME environment variable is set correctly. Open a terminal and run the following command:
 
 `echo $JAVA_HOME`
+
+---------
+If the command does not display the path to your Java installation, you need to set the JAVA_HOME variable manually as follows:
+1. run the command in terminal to see the versions of Java on your system:
+`ls /Library/Java/JavaVirtualMachines/`
+
+2. 
