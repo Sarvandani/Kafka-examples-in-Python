@@ -15,3 +15,8 @@ if you don't have, you can use the following link for downloading and install:
 https://adoptium.net/en-GB/temurin/archive/?version=11
 
 It should be noticed the fersion of Java and Kafka must be compatible, for this reason, I used Java11. 
+
+------
+now, After installing Java, verify that the JAVA_HOME environment variable is set correctly. Open a terminal and run the following command:
+
+`echo $JAVA_HOME`
