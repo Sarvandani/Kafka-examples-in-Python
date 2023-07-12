@@ -16,7 +16,7 @@ if you don't have, you can use the following link for downloading and install:
 
 https://adoptium.net/en-GB/temurin/archive/?version=11
 
-It should be noticed the fersion of Java and Kafka must be compatible, for this reason, I used Java11. 
+It should be noticed the version of Java and Kafka must be compatible, for this reason, I used Java11. 
 
 ------
 now, After installing Java, verify that the JAVA_HOME environment variable is set correctly. Open a terminal and run the following command:
@@ -45,11 +45,35 @@ Add the following line at the end of the Zsh file (Contents/Home MUST BE ADDED a
 Export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
 
 ----------
+
 After setting path, we can check again as follows in the terminal:
 
 `echo $JAVA_HOME`
 
 The results must be /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home. 
+
+------- 
+
+now, we continue installing Kafka. Extract the source code: Open a terminal and navigate to the directory where you downloaded the Kafka source distribution. 
+Use the following command to extract the contents:
+
+`tar -xzf kafka-2.7.2-src.tgz`
+
+Navigate to the extracted Kafka directory:
+
+`cd kafka-2.7.2-src`
+
+Run the following command to initiate the build process:
+
+`./gradlew` 
+
+-----------------
+
+Verify the build: Once the build process is finished, you can run the following command to ensure that Kafka is built successfully:
+./gradlew jar 
+This command compiles and packages Kafka's JAR files.
+
+
 
 
 
