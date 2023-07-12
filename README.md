@@ -2,7 +2,8 @@
 
 # 1. Kafka installation
 Before executing the code, we should know there are three main libraries in Python for interacting with Kafka. They are PyKafka, Kafka-python and Confluent Kafka Libraries.
-first of all, we need to install the Kafak on the system. You can use the folliwng link to download a version of Kafka which is compatible with your system (in my case, I downloaded kafka-2.7.2-src.tgz):
+If we are using Amazon MSK clusters then We can use PyKafka or Kafka-python libraries and If we are using Confluent Kafka clusters then We have to use Confluent Kafka Library. We may use local host or external cluster. 
+First of all, we need to install the Kafak on the system. You can use the folliwng link to download a version of Kafka which is compatible with your system (in my case, I downloaded kafka-2.7.2-src.tgz):
 
 https://kafka.apache.org/downloads
 
