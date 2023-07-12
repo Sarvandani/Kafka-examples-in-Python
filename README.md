@@ -70,8 +70,11 @@ Run the following command to initiate the build process:
 -----------------
 
 Verify the build: Once the build process is finished, you can run the following command to ensure that Kafka is built successfully:
-./gradlew jar 
+
+`./gradlew jar` 
+
 This command compiles and packages Kafka's JAR files.
+
 
 
 
