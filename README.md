@@ -5,4 +5,4 @@ https://kafka.apache.org/downloads
 
 Verify that you have Java 8 or a later version installed by the following command in terminal:
 
-'java -verson'
+`java -verson`
