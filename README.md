@@ -75,6 +75,11 @@ Verify the build: Once the build process is finished, you can run the following 
 
 This command compiles and packages Kafka's JAR files.
 
+------------------
+Now, we can check the version of installed Kafka by the following command, however, we must be in the directory of downloaded Kafka:
+
+`bin/kafka-server-start.sh --version`
+
 
 
 
