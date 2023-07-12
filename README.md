@@ -4,7 +4,7 @@ first of all, we need to install the Kafak on the system. You can use the folliw
 
 https://kafka.apache.org/downloads
 
---
+-----
 
 Verify that you have Java 8 or a later version installed by the following command in terminal:
 
