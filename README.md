@@ -1,6 +1,6 @@
 # Kafka examples in Python
 
-# Kafka installation
+# 1. Kafka installation
 Before executing the code, we should know there are three main libraries in Python for interacting with Kafka. They are PyKafka, Kafka-python and Confluent Kafka Libraries.
 first of all, we need to install the Kafak on the system. You can use the folliwng link to download a version of Kafka which is compatible with your system (in my case, I downloaded kafka-2.7.2-src.tgz):
 
@@ -81,7 +81,17 @@ Now, we can check the version of installed Kafka by the following command, howev
 `bin/kafka-server-start.sh --version`
 
 
+# 2. Starting Kafka server
 
+Before executing any code in Python, the following commands in the directory of Kafka must be executed in two separated terminals:
+
+`bin/zookeeper-server-start.sh config/zookeeper.properties`
+
+`bin/kafka-server-start.sh config/server.properties`
+
+your two treminals will be in runing conditions!
+
+Now, it is the time to run and modify your Python code!
 
 
 
