@@ -6,3 +6,8 @@ https://kafka.apache.org/downloads
 Verify that you have Java 8 or a later version installed by the following command in terminal:
 
 `java -verson`
+
+if you don't have, you can use the following link for downloading and install:
+https://adoptium.net/en-GB/temurin/archive/?version=11
+
+It should be noticed the fersion of Java and Kafka must be compatible, for this reason, I used Java11. 
