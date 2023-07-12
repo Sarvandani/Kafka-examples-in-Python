@@ -42,6 +42,15 @@ Add the following line at the end of the Zsh file (Contents/Home MUST BE ADDED a
 
 Export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
 
+----------
+After setting path, we can check again as follows in the terminal:
+
+`echo $JAVA_HOME`
+
+The results must be /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home. 
+
+
+
 
 
 
