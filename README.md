@@ -23,7 +23,25 @@ now, After installing Java, verify that the JAVA_HOME environment variable is se
 
 ---------
 If the command does not display the path to your Java installation, you need to set the JAVA_HOME variable manually as follows:
+
 1. run the command in terminal to see the versions of Java on your system:
+
 `ls /Library/Java/JavaVirtualMachines/`
 
-2. 
+in my case, the results were:
+
+Jdk-17.0.2.jdk  temurin-11.jdk
+
+since I had two different vresions of Java. As mentioned earlier, only 11 version was compatible in my case.
+
+2. Open the shell profile file in a text editor
+For Bash, open ~/.bash_profile or ~/.bashrc.
+For Zsh, open ~/.zshrc.
+
+Add the following line at the end of the Zsh file (Contents/Home MUST BE ADDED at the end of line):
+
+Export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home
+
+
+
+
